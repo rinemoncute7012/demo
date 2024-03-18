@@ -1,3 +1,5 @@
+import 'package:demo/app/homePage.dart';
+import 'package:demo/appstate/getX.dart';
 import 'package:demo/bt/baitap.dart';
 import 'package:demo/form/page_form_profile.dart';
 import 'package:demo/profile/page_profile.dart';
@@ -27,6 +29,8 @@ class PageHome extends StatelessWidget {
               _buildButton(context, lable: "Provider", destination: PageProvider()),
               _buildButton(context, lable: "Trai Cay", destination: PageList()),
               _buildButton(context, lable: "Trai Cay Store", destination: AppGioHangNTU()),
+              _buildButton(context, lable: "Trai Cay Shop", destination: HomePageFruit()),
+              _buildButton(context, lable: "GetX", destination: PageGetCounter()),
             ],
           ),
         ),
